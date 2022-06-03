@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2041
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GoogleTestProject", "GoogleTestProject\GoogleTestProject.vcxproj", "{EAAEB9DB-F93E-49FA-BB86-D5598B6A6FCD}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppKata", "CppKata\CppKata.vcxproj", "{E1D91B65-F8F3-4A54-8263-0384A4AA09E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KataMain", "KataMain\KataMain.vcxproj", "{2CD186F8-EF62-4510-99CD-0962CEC91AA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,14 @@ Global
 		{E1D91B65-F8F3-4A54-8263-0384A4AA09E1}.Release|Win32.ActiveCfg = Release|Win32
 		{E1D91B65-F8F3-4A54-8263-0384A4AA09E1}.Release|Win32.Build.0 = Release|Win32
 		{E1D91B65-F8F3-4A54-8263-0384A4AA09E1}.Release|x64.ActiveCfg = Release|Win32
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Debug|Win32.Build.0 = Debug|Win32
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Debug|x64.ActiveCfg = Debug|x64
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Debug|x64.Build.0 = Debug|x64
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Release|Win32.ActiveCfg = Release|Win32
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Release|Win32.Build.0 = Release|Win32
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Release|x64.ActiveCfg = Release|x64
+		{2CD186F8-EF62-4510-99CD-0962CEC91AA7}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
