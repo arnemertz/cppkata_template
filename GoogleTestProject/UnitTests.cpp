@@ -13,5 +13,5 @@ TEST(process, prints_hello_world)
 		"line 3\n"
 	""s;
 	std::stringstream sstr{sample_input};
-	ASSERT_EQ(process(sstr), "Hello World!\nlol"s);
+	ASSERT_EQ(process(sstr), "lol"s);
 }

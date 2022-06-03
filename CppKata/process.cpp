@@ -3,7 +3,7 @@
 #include <istream>
 
 std::string process(std::istream& is) {
-    std::string result{"Hello World!\n"};
+    std::string result;
     std::string line;
     while (std::getline(is, line) && !line.empty())
     {
